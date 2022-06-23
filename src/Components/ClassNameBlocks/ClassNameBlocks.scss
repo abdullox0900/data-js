@@ -1,0 +1,43 @@
+.class-name-blocks {
+    width: 800px;
+
+    .class-name-blocks__title {
+        margin: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        font-size: 26px;
+        font-weight: 600;
+        color: #34495e;
+        border-bottom: 1px solid #cacaca;
+    }
+
+    .class-name-blocks__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .class-name-blocks__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .class-name-blocks__item+.class-name-blocks__item {
+        margin-top: 20px;
+    }
+
+    .class-name-blocks__info {
+        margin: 0;
+        font-size: 18px;
+        // line-height: 5px;
+        margin-left: 10px;
+    }
+
+    .line-span {
+        display: inline-block;
+        // width: 10px;
+        // height: 1px;
+        // margin-top: 3px;
+        // background-color: #000;
+    }
+}

@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    // position: fixed;
+    width: 300px;
+    height: calc(100vh);
+    padding: 30px;
+    background-color:  rgba(237, 237, 237, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+
+    .nav__input {
+        padding: 10px 20px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        outline: none;
+    }
+
+    .nav__list {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav__item + .nav__item{
+        margin-top: 20px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+        font-weight: 400;
+        color: #34495e;
+        text-decoration: none;
+    }
+}
