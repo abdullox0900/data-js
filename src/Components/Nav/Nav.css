@@ -1,0 +1,57 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  overflow-y: auto;
+  width: 300px;
+  height: calc(100vh);
+  height: 100ch;
+  padding: 30px;
+  background-color: rgba(237, 237, 237, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.nav .nav__input {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  outline: none;
+}
+
+.nav .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav .nav__item + .nav__item {
+  margin-top: 20px;
+}
+
+.nav .nav__link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #34495e;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Nav.css.map */

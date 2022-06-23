@@ -16,11 +16,13 @@ function ClassName() {
                 <div className="class-name">
                     <h1 className="class-name__title">Words commonly used in CSS classes</h1>
                     <ul>
-                        <li>D</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum, dolor sit amet.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur</li>
                     </ul>
 
                     <ClassNameBlocks />
-                   
+
                 </div>
             </section>
         </>

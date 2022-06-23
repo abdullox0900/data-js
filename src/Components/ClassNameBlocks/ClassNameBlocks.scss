@@ -1,5 +1,6 @@
 .class-name-blocks {
     width: 800px;
+    margin-bottom: 20px;
 
     .class-name-blocks__title {
         margin: 0;
@@ -15,6 +16,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
+        margin-bottom: 20px;
     }
 
     .class-name-blocks__item {
@@ -29,15 +31,14 @@
     .class-name-blocks__info {
         margin: 0;
         font-size: 18px;
-        // line-height: 5px;
         margin-left: 10px;
     }
 
     .line-span {
         display: inline-block;
-        // width: 10px;
-        // height: 1px;
-        // margin-top: 3px;
-        // background-color: #000;
+    }
+
+    .class-name-blocks__iframe {
+        // height: 330px !important;
     }
 }
