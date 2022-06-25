@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-top: 230px;
+
+    .hero__box {
+        width: 550px;
+    }
+
+    .hero__title {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 70px;
+        font-weight: 700;
+        color: #34495e;
+    }
+
+    .hero__desc {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 500;
+        color: #767676;
+        margin-bottom: 40px;
+    }
+
+    .hero__btn-menu {
+        padding: 10px 30px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        background-color: #34495e;
+        cursor: pointer;
+    }
+}
